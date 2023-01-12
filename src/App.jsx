@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 import './App.css'
-import Editar from './pages/editar/Login.jsx'
+import Editar from './pages/editar/Editar.jsx'
 import Entrada from './pages/login/Login.jsx'
 function App() {
   return (

@@ -1,6 +1,13 @@
+import estilos from '../../pages/editar/Editar.css'
+
 function Editar(){
     return(
-<div></div>
+    <div >
+        <form className={estilos}>
+        <div className='imagem'></div>
+
+        </form>
+    </div>
 
     );
 };
