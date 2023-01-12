@@ -17,7 +17,7 @@ function Entrada  ()  {
             <div>
                <button className='entrar'>Entrar</button>
             </div>
-            <div className='pergunta'> Não possui Cadastro? <a className='text' href="http://"> Cadastra-se</a></div>
+            <div className='pergunta'> Não possui Login? <a className='text' href="http://"> Cadastra-se!</a></div>
         </form>
    
 
