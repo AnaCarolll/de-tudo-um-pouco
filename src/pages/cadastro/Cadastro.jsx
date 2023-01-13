@@ -1,4 +1,4 @@
-import style from '../../pages/cadastro/Cadastro.css?inline'
+import style from '../../pages/cadastro/Cadastro.css'
 
 function Cadastrar  ()  {
     return (

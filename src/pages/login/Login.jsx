@@ -1,4 +1,4 @@
-import styles from'../../pages/login/Login.css?inline'
+import styles from'../../pages/login/Login.css'
 
 
 function Entrada  ()  {
