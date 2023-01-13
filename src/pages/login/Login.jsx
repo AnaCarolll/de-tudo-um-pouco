@@ -1,9 +1,9 @@
-import styles from '../pages/login/Login.css'
+import styles from'../../pages/login/Login.css?inline'
 
-
-function Entrada  ()  {
+import { Link } from 'react-router-dom';
+const Login =  () => {
   return (
-
+    <article className={styles}>
         <form  className="formularioLogin" action ="">
             <div className='containerInput'>
           
@@ -17,11 +17,11 @@ function Entrada  ()  {
             <div>
                <button className='entrar'>Entrar</button>
             </div>
-            <div className='pergunta'> Não possui Login? <a className='text' href="http://"> Cadastra-se!</a></div>
+            <div className='pergunta'> Não possui Login? <Link to='/Cadastrar' className='pergunta' >Cadastrar-se!</Link>  x</div>
         </form>
-   
+        </article>
 
   );
 };
 
-export default Entrada;
+export default Login;

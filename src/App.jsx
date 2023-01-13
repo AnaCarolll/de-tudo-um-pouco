@@ -1,25 +1,18 @@
 import { useState } from 'react'
 
 import './App.css'
-
-//paginas
-import { BrowserRouter as Router, Route,Switch } from 'react-router-dom'
-// import Editar from  './pages/editar/Editar.jsx'
-import Entrada from './pages/login/Login.jsx'
+import { Routes, Route } from 'react-router-dom'
+import Editar from './pages/editar/Editar.jsx'
+import Login from './pages/login/Login.jsx'
 // import Cadastrar from './pages/cadastro/Cadastro.jsx'
-const App = () => {
+function App (){
   return (
-    <Router>
-    <Switch>
-      
-    <Route path='/Entrada' exact  component={Entrada}/>
+    <Routes>
+  
+        <Route path='/Login' element={<Login/>}/>
+    
+    </Routes>
+  )
+}
 
-    </Switch>
-     
-
-     
-    </Router>
-  );
-};
-
-export default App;
+export default App
