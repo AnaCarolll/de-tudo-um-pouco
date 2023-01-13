@@ -1,24 +1,19 @@
 import './App.css'
-import { Routes, Route, Link } from 'react-router-dom'
-
+import { Routes, Route } from 'react-router-dom'
 import Editar from './pages/editar/Editar.jsx'
-import Entrada from './pages/login/Login.jsx'
+import Login from './pages/login/Login.jsx'
 import Cadastrar from './pages/cadastro/Cadastro.jsx'
-
-function App() {
+function App (){
   return (
-    <Routes>
-      <div className="App">
-        <ul>
-          <li><Link to='/cadastro'>cadastro</Link></li>
-        </ul>
-        <Switch>
-          <Route exact path='/cadastro'>
-            <Cadastrar />
-          </Route>
-        </Switch>
-      </div>
+    <main>
+     <Routes>
+     <Route path='/' element={<Login/>}/>
+     <Route path='/cadastrar' element={<Cadastrar/>}/>
+     <Route path='/editar' element={<Editar/>}/>
+     {/* <Route path='/' /> */}
+   
     </Routes>
+    </main>
   )
 }
 

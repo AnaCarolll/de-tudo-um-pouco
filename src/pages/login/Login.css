@@ -72,14 +72,14 @@ font-family: 'Gluten', cursive;
      font-family: 'Gluten', cursive;
 }
 
-.pergunta{
+.pergunta1{
     margin-top: 10px;
 }
 
-.text{
+.pergunta1{
     text-decoration: none;
   color: rgba(243, 241, 244, 0.75); ;
 }
-.text:hover{
+.pergunta1:hover{
 color: black;
 }
