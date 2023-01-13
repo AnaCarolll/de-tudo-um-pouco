@@ -3,3 +3,9 @@ html{
   background: var(--background);
   
 } 
+
+.imagem{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+}
