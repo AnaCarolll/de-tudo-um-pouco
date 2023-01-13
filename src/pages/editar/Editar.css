@@ -1,0 +1,62 @@
+:root{--background: linear-gradient(43deg, #4d3157 0%, 52%, #664F8C 100%);}
+html{
+  background: var(--background);
+  
+} 
+
+.imagem{
+ margin-left: 60px;
+border: 8px;
+margin-bottom: 9px;
+
+}
+.container{
+display: flex;
+flex-direction: column;
+
+}
+
+
+.nomedoproduto{
+    width: 140px ;
+    height: 30px ;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    font-family: 'Gluten', cursive;
+    border-radius: 5px;
+    border-color: rgba(243, 241, 244, 0.75);
+}
+
+.descricao{
+   
+    margin-right: 20px;
+    width: 140px ;
+    height: 30px ;
+    font-family: 'Gluten', cursive;
+    border-radius: 5px;
+    border-color: rgba(243, 241, 244, 0.75);
+}
+
+
+
+.preco{
+    width: 140px ;
+    height: 30px ;
+    font-family: 'Gluten', cursive;
+    border-radius: 5px;
+    border-color: rgba(243, 241, 244, 0.75);
+}
+
+
+.editar{
+    width: 150px ;
+    height: 36px ;
+    font-family: 'Gluten', cursive;
+    border-radius: 5px;
+    border-color: rgba(243, 241, 244, 0.75);
+}
+.editar:hover{
+    background-color:rgb(0, 0, 0);
+    color: beige;
+    border-radius: 4px;
+}

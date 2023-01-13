@@ -1,14 +1,14 @@
-import styles from'../../pages/login/Login.css?inline'
-
+import '../login/Login.css'
 import { Link } from 'react-router-dom';
-const Login =  () => {
+const Login = () => {
   return (
-    <article className={styles}>
+    <article >
         <form  className="formularioLogin" action ="">
             <div className='containerInput'>
           
                 <label htmlFor="email" className='escritaid'>E-mail:</label>
                 <input  type="email" name="email" id="email" placeholder="E-mail" />
+            
             </div>
             <div className="containerInput">
                 <label htmlFor="senha" className='escritaid'>Senha:</label>
@@ -17,7 +17,7 @@ const Login =  () => {
             <div>
                <button className='entrar'>Entrar</button>
             </div>
-            <div className='pergunta'> Não possui Login? <Link to='/Cadastrar' className='pergunta' >Cadastrar-se!</Link>  x</div>
+            <div className='pergunta'> Não possui Login? <Link to='/cadastrar' className='pergunta1' >Cadastrar-se!</Link></div>
         </form>
         </article>
 
