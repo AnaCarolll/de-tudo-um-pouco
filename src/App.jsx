@@ -1,19 +1,24 @@
-import { useState } from 'react'
-
 import './App.css'
-import {BrowserRouter as Routes, Route } from 'react-router-dom'
+import { Routes, Route, Link } from 'react-router-dom'
 
 import Editar from './pages/editar/Editar.jsx'
 import Entrada from './pages/login/Login.jsx'
 import Cadastrar from './pages/cadastro/Cadastro.jsx'
+
 function App() {
   return (
-    <div className="App">
-      <Routes>
-        <Route path='/Cadastro' element={Cadastrar}/>
-      </Routes>
-    </div>
-  
+    <Routes>
+      <div className="App">
+        <ul>
+          <li><Link to='/cadastro'>cadastro</Link></li>
+        </ul>
+        <Switch>
+          <Route exact path='/cadastro'>
+            <Cadastrar />
+          </Route>
+        </Switch>
+      </div>
+    </Routes>
   )
 }
 
