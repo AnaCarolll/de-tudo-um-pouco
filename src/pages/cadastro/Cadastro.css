@@ -1,0 +1,23 @@
+:root{--background: linear-gradient(43deg, #4d3157 0%, 52%, #664F8C 100%);}
+html{
+  background: var(--background);
+  
+} 
+html,body,#root,#app{
+display: flex;
+flex-direction: column;
+margin:0px;
+padding: 0px;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+font-family: 'Gluten', cursive;
+}
+
+.formCadastro {
+    width: 308px;
+    height: 386px;
+    background: rgba(0, 0, 0, 0.795);
+    border-radius: 5px;
+}
