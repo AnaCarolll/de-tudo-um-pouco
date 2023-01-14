@@ -1,4 +1,4 @@
-import style from '../../pages/cadastro/Cadastro.css?inline'
+import style from '../../pages/cadastro/Cadastro.css'
 
 function Cadastrar  ()  {
     return (
@@ -19,10 +19,15 @@ function Cadastrar  ()  {
                   <label htmlFor="senha" className='escritaid'>Senha:</label>
                   <input type="password" placeholder="Senha"id='senha' />
               </div>
+              <div className="Input">
+
+                  <label htmlFor="ConfirmaSenha" className='escritaid'>Confirma Senha:</label>
+                  <input type="ComfirmPassword" placeholder="Confime a Senha" id='ConfirmaSenha' />
+              </div>
               <div>
                  <button className='BtnCadastrar'>Cadastrar</button>
               </div>
-              <div className='Alternativa'> Já possui uma Conta? <a className='text' href="http://"> Entrar</a></div>
+              <div className='Alternativa'> Já possui uma Conta? <a className='text' href="http://localhost:5173/"> Entrar</a></div>
           </form>
      
   
