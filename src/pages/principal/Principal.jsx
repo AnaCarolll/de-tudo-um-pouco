@@ -17,13 +17,19 @@ function Principal() {
     did()
     return (
         <>
-            <section className='pesquisa'><input type="text" name="" id="oi" /></section>
-            <main>
+            <div className='barHeader' id='barHeader'>
+                <img src="./src/assets/image/android-chrome-192x192.png" alt="" className='picture'/>
+                <h2>Add Um Produto</h2>
+                <div className='BtnMenu'><a className='text' href="http://localhost:5173/"> 
+                    <img src="./src/assets/menu.svg" alt="" className='imgMenu'/>
+                </a></div>
+            </div>
+            <main className='produtomain'>
                 {
                     produtos.map((elemento) => (
                         <section className='produtoC'>
-                            <div className="produto">
-                                <img className='imagem' src="" alt="" />
+                            <div className="produt">
+                                <img className='image' src="" alt="" />
                                 <div className='info'>
                                     <div className="titulo">Nome:{elemento.titulo}</div>
                                     <div>Preco:{elemento.valor}</div>
@@ -31,10 +37,10 @@ function Principal() {
                                 </div>
                                 <div className='botoes'>
                                     <form action="/editar" method="post">
-                                        <input type="hidden" name="id" value={elemento.id} />
-                                        <button type="submit">Editar <a href="/editar"></a></button>
+                                        <input type="hidden" name="id" id='id' value={elemento.id} />
+                                        <button type="submit" className='botao'>Editar <a href="/editar"></a></button>
                                     </form>
-                                    <button></button>
+                                    <button className='botao'></button>
                                 </div>
                             </div>
                         </section>

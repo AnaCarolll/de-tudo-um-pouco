@@ -7,7 +7,6 @@ import NovoProduto from './pages/novoProduto/novoProduto'
 import Principal from './pages/principal/Principal'
 function App (){
   return (
-    <main>
      <Routes>
       <Route path='/' element={<Principal/>}/>
       <Route path='/Login' element={<Login/>}/>
@@ -17,7 +16,6 @@ function App (){
       {/* <Route path='/' /> */}
    
     </Routes>
-    </main>
   )
 }
 
