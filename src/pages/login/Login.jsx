@@ -6,11 +6,11 @@ const Login = () => {
         <form  className="formularioLogin" action ="">
             <div className='containerInput'>
                 <label htmlFor="email" className='escritaid'>E-mail:</label>
-                <input  type="email" name="email" id="email" placeholder="E-mail" />
+                <input  type="email" name="email" id="e-mail" placeholder="E-mail" />
             </div>
             <div className="containerInput">
                 <label htmlFor="senha" className='escritaid'>Senha:</label>
-                <input type="password" placeholder="Senha"id='senha' />
+                <input type="password" placeholder="Senha"id='s-enha' />
             </div>
             <div>
                <button className='entrar'>Entrar</button>

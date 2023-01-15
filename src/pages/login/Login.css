@@ -1,175 +1,98 @@
-/* :root{--background: linear-gradient(43deg, #4d3157 0%, 52%, #664F8C 100%);}
-html{
-  background: var(--background);
-  
-} 
-html,body,#root,#app{
-display: flex;
-flex-direction: column;
-margin:0px;
-padding: 0px;
-justify-content: center;
-align-items: center;
-width: 100%;
-height: 100%;
-font-family: 'Gluten', cursive;
-
-}
-.containerInput{
-    width: 300px;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center ;
-}
-
-
-#email{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(243, 241, 244, 0.75);
-    border-radius: 10px;
-    border-color: rgba(243, 241, 244, 0.75);
-    font-family: 'Gluten', cursive;
-}
-
-.escritaid{
- width: auto;
-    
-}
-.formularioLogin{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-#senha{
-    background-color: rgba(243, 241, 244, 0.75);
-    border-color: rgba(243, 241, 244, 0.75);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   margin-bottom: 30px;
-    border-radius: 10px;
-    font-family: 'Gluten', cursive;
-    
-}
-
-.entrar{
-    background-color: rgba(243, 241, 244, 0.75);
-    border-color: rgba(243, 241, 244, 0.75);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-    height: 25px;
-    width: 140px;
-    border-color: rgba(243, 241, 244, 0.75);
-    border-radius: 10px;
-    font-family: 'Gluten', cursive;
-}
-
-.pergunta1{
-    margin-top: 10px;
-}
-
-.pergunta1{
-    text-decoration: none;
-  color: rgba(243, 241, 244, 0.75); ;
-}
-.pergunta1:hover{
-color: black;
-} */
 :root {
-    --background: linear-gradient(43deg, #6c447a 0%, 52%, #664f8c 100%);
-  }
-  html {
-    background: var(--background);
-  }
-  
-  html,
-  body,
-  #root,
-  #app {
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-    padding: 0px;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    font-family: "Gluten", cursive;
-  }
-  
-  .formularioLogin {
-    border-radius: 7px;
-    width: 316px;
-    height: 396px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(0, 0, 0, 0.25);
-  }
-  
-  .escritaid {
-    width: auto;
-  }
-  .escritaind {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 5px;
-  }
-  
-  #email {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(243, 241, 244, 0.75);
-    border-radius: 10px;
-    border-color: rgba(243, 241, 244, 0.75);
-    font-family: "Gluten", cursive;
-  }
-  
-  #senha {
-    background-color: rgba(243, 241, 244, 0.75);
-    border-color: rgba(243, 241, 244, 0.75);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    font-family: "Gluten", cursive;
-  }
-  
-  
-  .entrar {
-    background-color: rgba(243, 241, 244, 0.75);
-    border-color: rgba(243, 241, 244, 0.75);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 25px 0;
-    height: 25px;
-    width: 140px;
-    border-color: rgba(243, 241, 244, 0.75);
-    border-radius: 10px;
-    font-family: "Gluten", cursive;
-  }
-  
-  .pergunta {
-    margin-top: 10px;
-  }
-  .pergunta1 {
-    text-decoration: none;
-    color: rgba(243, 241, 244, 0.75);
-  }
-  .pergunta1:hover {
-    color: rgb(0, 0, 0);
-  }
+  --background: linear-gradient(43deg, #6c447a 0%, 52%, #664f8c 100%);
+}
+html {
+  background: var(--background);
+}
+
+html,
+body,
+#root,
+#app {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-family: "Gluten", cursive;
+}
+
+.formularioLogin {
+  border-radius: 7px;
+  width: 366px;
+  height: 456px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0, 0.273);
+}
+
+.escritaid {
+  width: auto;
+}
+.escritaind {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+#e-mail {
+  height: 30px;
+  width: 300px;
+  background-color: rgba(243, 241, 244, 0.75);
+  border-color: rgba(243, 241, 244, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3em;
+  border-radius: 18px;
+  font-family: "Gluten", cursive;
+}
+
+#s-enha {
+  height: 30px;
+  width: 300px;
+  background-color: rgba(243, 241, 244, 0.75);
+  border-color: rgba(243, 241, 244, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6em;
+  border-radius: 18px;
+  font-family: "Gluten", cursive;
+}
+
+.entrar {
+  background-color: rgba(243, 241, 244, 0.75);
+  border-color: rgba(243, 241, 244, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+  height: 45px;
+  width: 140px;
+  border-color: rgba(243, 241, 244, 0.75);
+  border-radius: 20px;
+  font-family: "Gluten", cursive;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.pergunta {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.pergunta1 {
+  text-decoration: none;
+  color: rgba(243, 241, 244, 0.75);
+}
+.pergunta1:hover {
+  color: rgb(0, 0, 0);
+}

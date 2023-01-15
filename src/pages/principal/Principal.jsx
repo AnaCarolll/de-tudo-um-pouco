@@ -17,7 +17,7 @@ function Principal() {
     did()
     return (
         <>
-            <div className='barHeader' id='barHeader'>
+             <div className='barHeader' id='barHeader'>
                 <img src="./src/assets/image/android-chrome-192x192.png" alt="" className='picture'/>
                 <h2>Add Um Produto</h2>
                 <div className='BtnMenu'><a className='text' href="http://localhost:5173/"> 
@@ -38,7 +38,7 @@ function Principal() {
                                 <div className='botoes'>
                                     <form action="/editar" method="post">
                                         <input type="hidden" name="id" id='id' value={elemento.id} />
-                                        <button type="submit" className='botao'>Editar <a href="/editar"></a></button>
+                                        <button type="submit" className='botao'><a href="/editar" id='letra'>Editar</a></button>
                                     </form>
                                     <button className='botao'></button>
                                 </div>

@@ -27,7 +27,7 @@ function Cadastrar  ()  {
               <div>
                  <button className='BtnCadastrar'>Cadastrar</button>
               </div>
-              <div className='Alternativa'> Já possui uma Conta? <a className='text' href="http://localhost:5173/"> Entrar</a></div>
+              <div className='Alternativa'> Já possui uma Conta? <a className='text' href="http://localhost:5173/login"> Entrar</a></div>
           </form>
      
   

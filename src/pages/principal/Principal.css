@@ -74,6 +74,11 @@ body {
   transition: border-color 0.25s;
 } 
 
+#letra {
+  text-decoration: none;
+  color: black;
+}
+
 /* barHeader */
 
 .barHeader {
