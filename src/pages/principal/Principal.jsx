@@ -29,7 +29,7 @@ function Principal() {
                     produtos.map((elemento) => (
                         <section className='produtoC'>
                             <div className="produt">
-                                <img className='image' src="" alt="" />
+                                <img className='image' src="./src/assets/image/meliuz.png" alt="" />
                                 <div className='info'>
                                     <div className="titulo">Nome:{elemento.titulo}</div>
                                     <div>Preco:{elemento.valor}</div>
