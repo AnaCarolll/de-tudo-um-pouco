@@ -1,4 +1,6 @@
 import '../novoProduto/NovoProduto.css'
+import axios from "axios"
+import { useState } from 'react';
 
 function NovoProduto() {
     return (

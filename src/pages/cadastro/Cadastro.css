@@ -32,9 +32,7 @@ body,
 }
 
 .escritaid {
-  width: auto;
-}
-.escritaid {
+  width: 310px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -115,11 +113,11 @@ body,
   margin-top: 10px;
   font-size: 18px;
 }
-.text {
+.txt {
   text-decoration: none;
   color: rgba(243, 241, 244, 0.75);
-  margin: 1em;
+  margin: 10px;
 }
-.text:hover {
+.txt:hover {
   color: rgb(0, 0, 0);
 }
