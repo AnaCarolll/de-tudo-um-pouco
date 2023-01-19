@@ -1,6 +1,6 @@
 import '../editar/Editar.css'
 import brinco from '../../assets/image/meliuz.png'
-// import axios from "axios"
+import axios from "axios"
 import { useState } from 'react';
 
 function Editar(){
