@@ -1,5 +1,5 @@
 import '../principal/Principal.css'
-import axios from "axios"
+// import axios from "axios"
 import { useState } from 'react';
 
 function Principal() {
